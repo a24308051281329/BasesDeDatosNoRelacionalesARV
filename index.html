@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Mi negocio WEB Hosptal ARV </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: white;  /*color encabezado*/
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: green;  /*color de el titulo*/
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+
+  width: 100%;
+  height: 60px; /* only for demonstration, should be removed */
+  background: #2748AA; /*color de fondo de los documentos*/
+  padding:20px;
+  
+  
+
+  display: flex;              /* esto los pone en horizontal */
+  justify-content: center;    /* centra */
+  align-items: center;        /* alinea vertical */
+  gap: 20px; 
+
+
+
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+ nav a {
+  color: white;     /*color de los enlaces de los documenos*/
+}
+
+  nav a:hover {
+  color: #1EB347;     /*cambia el color de los enlaces de los documenos cuando le aplastas*/
+
+}
+
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;  /*color de fondo del articulo*/
+  height: 860px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+}
+
+/* Style the footer */
+footer {
+  background-color: #2748AA;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="logo_hospital.png" alt="Logo del hospital" width="200">
+  <h2>Hospital ARV</h2>
+</header>
+
+<section>
+  <nav>
+	<a href="areas.html">Areas</a>
+   	<a href="citas.html">Citas</a>
+    	<a href="enfermeros.html">Enfermeros</a>
+    	<a href="habitaciones.html">Habitaciones</a>
+    	<a href="medicamentos.html">Medicamentos</a>
+    	<a href="medicos.html">Medicos</a>
+    	<a href="pacientes.html">Pacientes</a>
+    	<a href="personal_limpieza.html">Personal de limpieza</a>
+  </nav>
+  
+  <article>
+    <h1>Sistema Hospitalario</h1>
+
+<p>Somos un sistema especializado en la administración de hospitales, diseñado para mejorar la organización y atención médica.</p>
+
+<h3>Servicios</h3>
+<ul>
+  <li>Registro de pacientes</li>
+  <li>Control de citas médicas</li>
+  <li>Administración de médicos</li>
+  <li>Historial clínico digital</li>
+</ul>
+
+<h3>¿Qué ofrecemos?</h3>
+<p>Ofrecemos una plataforma eficiente que permite a hospitales y clínicas gestionar su información de manera rápida y segura.</p>
+
+<h3>Beneficios</h3>
+<ul>
+  <li>Acceso rápido a la información</li>
+  <li>Mejor organización</li>
+  <li>Reducción de errores</li>
+  <li>Atención más eficiente</li>
+</ul>
+
+<h3>Misión</h3>
+<p>Brindar soluciones tecnológicas para mejorar la gestión hospitalaria.</p>
+
+<h3>Visión</h3>
+<p>Ser un sistema líder en administración médica digital.</p>
+
+</article>
+</section>
+
+
+<footer>
+  <p>Ailyn Ramirez Villa</p>
+  <p>No. Control: 24308051281329</p>
+  <p>Semestre: 4to </p>
+  <p>Grupo: J</p>
+  <p>Especialidad: programacion </p>
+
+
+
+</footer>
+
+</body>
+</html>
+
+

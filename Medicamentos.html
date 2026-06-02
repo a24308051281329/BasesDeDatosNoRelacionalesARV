@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Medicamentos Hospital</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ENCABEZADO */
+header{
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: green;
+}
+
+/* MENU */
+nav{
+  width: 100%;
+  background: #2748AA;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #1EB347;
+}
+
+/* CONTENIDO */
+article{
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* TABLA */
+table{
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+th{
+  background-color: #2748AA;
+  color: white;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer{
+  background-color: #2748AA;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo_hospital.png" alt="Logo del hospital" width="200">
+  <h2>Hospital ARV</h2>
+</header>
+
+<section>
+
+<nav>
+   	<a href="index.html">Inicio</a>
+	<a href="areas.html">Areas</a>
+   	<a href="citas.html">Citas</a>
+    	<a href="enfermeros.html">Enfermeros</a>
+    	<a href="habitaciones.html">Habitaciones</a>
+    	<a href="medicamentos.html">Medicamentos</a>
+    	<a href="medicos.html">Medicos</a>
+    	<a href="pacientes.html">Pacientes</a>
+    	<a href="personal_limpieza.html">Personal de limpieza</a>
+</nav>
+
+<article>
+
+<h1>Tabla de Medicamentos</h1>
+
+<table>
+
+<tr>
+    <th>ID</th>
+    <th>Nombre Medicamento</th>
+    <th>Tipo</th>
+    <th>Dosis</th>
+    <th>Vía Administración</th>
+    <th>Fabricante</th>
+    <th>Fecha Caducidad</th>
+    <th>Cantidad Inventario</th>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93681</td>
+    <td>Paracetamol</td>
+    <td>Analgésico</td>
+    <td>500 mg</td>
+    <td>Oral</td>
+    <td>Genfar</td>
+    <td>2027-01</td>
+    <td>120 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93682</td>
+    <td>Ibuprofeno</td>
+    <td>Antiinflamatorio</td>
+    <td>400 mg</td>
+    <td>Oral</td>
+    <td>Pfizer</td>
+    <td>2026-08</td>
+    <td>80 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93683</td>
+    <td>Amoxicilina</td>
+    <td>Antibiótico</td>
+    <td>250 mg</td>
+    <td>Subcutánea</td>
+    <td>Bayer</td>
+    <td>2027-03</td>
+    <td>40 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93684</td>
+    <td>Omeprazol</td>
+    <td>Gastroprotector</td>
+    <td>20 mg</td>
+    <td>Oral</td>
+    <td>Teva</td>
+    <td>2026-12</td>
+    <td>70 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93685</td>
+    <td>Loratadina</td>
+    <td>Analgésico</td>
+    <td>10 mg</td>
+    <td>Oral</td>
+    <td>Bayer</td>
+    <td>2027-06</td>
+    <td>40 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93686</td>
+    <td>Metformina</td>
+    <td>Antibiótico</td>
+    <td>850 mg</td>
+    <td>Subcutánea</td>
+    <td>Bayer</td>
+    <td>2026-10</td>
+    <td>40 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93687</td>
+    <td>Insulina</td>
+    <td>Hormonal</td>
+    <td>10 ml</td>
+    <td>Subcutánea</td>
+    <td>Bayer</td>
+    <td>2027-05</td>
+    <td>40 tabletas</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93688</td>
+    <td>Diazepam</td>
+    <td>Analgésico</td>
+    <td>5 mg</td>
+    <td>Oral</td>
+    <td>Roche</td>
+    <td>2026-09</td>
+    <td>35 inhaladores</td>
+</tr>
+
+<tr>
+    <td>69a8e4af83193c8848f93689</td>
+    <td>Salbutamol</td>
+    <td>Broncodilatador</td>
+    <td>100 mcg</td>
+    <td>Inhalada</td>
+    <td>GSK</td>
+    <td>2027-12</td>
+    <td>65 tabletas</td>
+</tr>
+
+</table>
+
+</article>
+
+<footer>
+  <p>Ailyn Ramirez Villa</p>
+  <p>No. Control: 24308051281329</p>
+  <p>Semestre: 4to</p>
+  <p>Grupo: J</p>
+  <p>Especialidad: Programación</p>
+</footer>
+
+</body>
+</html>
